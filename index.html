@@ -1,17 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hangman Game</title>
     <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 
-    <h1 id="header0">Hangman</h1>
-    <h1 id="header1">Game</h1>
+    <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
+</head>
+
+<body color="green">
+
+    <header align="center" id="header">Hangman Game</header>
+
+    <div class="row" align="center">
+        <div class="col s12">
+            <h4>Press any keys to guess letters!</h4>
+        </div>
+    </div>
+    <div class="row cyan accent-3">
+        <div class="col s12">
+            <h1>
+                <span>Current Word:&nbsp;</span>
+                <span id="current-word"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <h3>Letters Guessed:&nbsp;
+                <span id="guess-letters"></span>
+            </h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <h3>Guesses Remaining:
+                <span id="guess-remain">12</span>
+            </h3>
+        </div>
+    </div>
+    <div class="row cyan accent-3">
+        <div class="col s6">
+            <h3>Wins:
+                <span id="wins">0</span>
+            </h3>
+        </div>
+        <div class="col s6">
+            <h3>Losses:
+                <span id="losses">0</span>
+            </h3>
+        </div>
+    </div>
+    </div>
+
 
     <script src="assets/Javascript/game.js"></script>
 </body>
+
 </html>

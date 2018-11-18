@@ -1,0 +1,11 @@
+body {
+    background-image: linear-gradient(rgb(85, 84, 84), plum, rgb(85, 84, 84));
+    padding: 25px;
+    font-family: 'Ranga', cursive;
+    text-shadow: 1px 1px goldenrod;
+}
+
+header {
+    font-size: 100px;
+    text-shadow: 3px 3px goldenrod;
+}
