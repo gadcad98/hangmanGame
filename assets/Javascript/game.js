@@ -30,6 +30,6 @@ document.onkeypress = function(e) {
     // console.log(keyPressed);
 
     if (currentWord.indexOf(keyPressed) !== -1) {
-        console.log('matching letter');
+        // console.log('matching letter');
     }
 }
